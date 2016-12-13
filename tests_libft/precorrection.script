@@ -1,0 +1,8 @@
+H
+g/^ *test_.*);$/d
+r !ls -1 *.c | sort -r
+g/^libft_main.c$/d
+g/.c$/m/main(/+1
+g/.c$/s/^/  test_/
+g/.c$/s//();/
+w
