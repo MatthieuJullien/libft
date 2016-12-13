@@ -21,6 +21,7 @@ SRC		=	ft_memset.c	\
 			ft_strnstr.c	\
 			ft_strcmp.c	\
 			ft_atoi.c	\
+			ft_basetoa.c \
 			ft_strncmp.c	\
 			ft_isalpha.c	\
 			ft_isdigit.c	\
@@ -99,7 +100,8 @@ SRC		=	ft_memset.c	\
 			ft_array_to_llist.c \
 			ft_min.c \
 			ft_max.c \
-			get_next_line.c
+			get_next_line.c \
+			is_type_in.c
 
 INCDIR	=	includes
 OBJ		=	$(SRC:.c=.o)
